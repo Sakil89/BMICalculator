@@ -45,6 +45,8 @@ function countBmi(){
 
 
 
+ 
+
 resultArea.style.display = "block";
 document.querySelector(".comment").innerHTML = `You are <span id="comment">${result}</span>`;
 document.querySelector("#result").innerHTML = bmi.toFixed(2);
